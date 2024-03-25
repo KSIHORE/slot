@@ -1,5 +1,5 @@
 # Ex:03 Time Table
-## Date:21.03.2024
+## Date:25.03.2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,19 +24,25 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-
+```
+ NAME:KISHORE.B
+ REF.NO:212222110020
+```
 ```
 <html>
     <head>
         <title>Slot Timetable</title>
     </head>
+    <style>
+
+    </style>
     <body>
         <center>
-            <img src="C:\Users\91755\Pictures\Screenshots\logo.png" width="965">
+            <img src="logo.png" height="100" width="965">
         </center>
         <br>
-        <table align="center" width="540">
-            <caption><b><h1>Timetable KISHORE.B (212222110020)</h1></b></caption>
+        <table align="center" width="540" border="20" border cellpadding="10" cellspacing="5">
+            <caption><b><h1>Slot Timetable KISHORE.B (212222110020)</h1></b></caption>
             <tr align="center">
                 <th bgcolor="blue">Day/Time</th>
                 <th bgcolor="blue">Monday</th>
@@ -48,7 +54,7 @@ Execute the program using runserver command.
             </tr>
             <tr align="center">
                 <th bgcolor="blue">8-10</th>
-                <td bgcolor="yellow">Fundamentals of Web Application Developement</td>
+                <td bgcolor="yellow">FUNDAMENTALS OF WEB APPLICATION</td>
                 <td bgcolor="yellow">FREE SLOT</td>
                 <td bgcolor="yellow">INTRODUCTION TO I.O.T</td>
                 <td bgcolor="yellow">SYSTEM OF NUMERICAL AND LOGICAL TERMINOLOGY</td>
@@ -95,44 +101,44 @@ Execute the program using runserver command.
         <br>
         <table align="center" cellspacing="2" cellpadding="4" border="2">
             <tr align="center">
-                <th>S.No.</th>
-                <th>Subject Code</th>
-                <th>Subject Name</th>
+                <th><font size="5">S.No.</font></th>
+                <th><font size="5">Subject Code</font></th>
+                <th><font size="5">Subject Name</font></th>
             </tr> 
             <tr>
                 <td align="center">1.</td>
-                <td align="center">19AI414</td>
-                <td><font color="green">Fundamentals of Web Application Development (FWAD)</font></td>
+                <td align="center"><font size="5">19AI414</font></td>
+                <td><font color="green" font size="5">Fundamentals of Web Application Development (FWAD)</font></td>
             </tr>
             <tr>
                 <td align="center">2.</td>
-                <td align="center">19CS420</td>
-                <td><font color="blue">PROTOTYPING OF I.O.T</font></td>
+                <td align="center"><font size="5">19CS420</font></td>
+                <td><font color="blue" font size="5">PROTOTYPING OF I.O.T</font></td>
             </tr>
             <tr>
                 <td align="center">3.</td>
-                <td align="center">19AM508</td>
-                <td><font color="yellow">INTRODUCTION TO I.O.T</font></td>
+                <td align="center"><font size="5">19AM508<font size="5"></font></td>
+                <td><font color="yellow" font size="5">INTRODUCTION TO I.O.T</font></td>
             </tr>
             <tr>
                 <td align="center">4.</td>
-                <td align="center">19AI405</td>
-                <td><font color="green">FUNDAMENTALS OF ARTIFICIAL INTELLIGENCE</font></td>
+                <td align="center"><font size="5">19AI405</font></td>
+                <td><font color="green" font size="5" >FUNDAMENTALS OF ARTIFICIAL INTELLIGENCE</font></td>
             </tr>
             <tr>
                 <td align="center">5.</td>
-                <td align="center">19CS405</td>
-                <td><font color="blue">OPERATING SYSTEMS</font></td>
+                <td align="center"><font size="5">19CS405</font></td>
+                <td><font color="blue" font size="5">OPERATING SYSTEMS</font></td>
             </tr>
             <tr>
                 <td align="center">6.</td>
-                <td align="center">19CS408</td>
-                <td><font color="blue">SOFTWARE ENGINEERING</font></td>
+                <td align="center"><font size="5">19CS408</font></td>
+                <td><font color="blue" font size="5">SOFTWARE ENGINEERING</font></td>
             </tr>
             <tr>
                 <td align="center">7.</td>
-                <td align="center">19EY703</td>
-                <td><font color="red">SYSTEM OF NUMERICAL AND LOGICAL TERMINOLOGY</font></td>
+                <td align="center"><font size="5">19EY703</font></td>
+                <td><font color="red" font size="5">SYSTEM OF NUMERICAL AND LOGICAL TERMINOLOGY</font></td>
             </tr>
         </table>
     </body>
@@ -140,7 +146,7 @@ Execute the program using runserver command.
 ```
 
 ## OUTPUT
-<img width="860" height=" 400" alt="Screenshot 2024-03-21 192302" src="https://github.com/KSIHORE/slot/assets/151484879/5a868ecb-a7cc-424b-9f94-19ae3dc07d1e">
+<img width="960" alt="Screenshot 2024-03-25 093806" src="https://github.com/KSIHORE/slot/assets/151484879/b9b6b146-7c39-4f13-9dfc-091b96ef883e">
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
